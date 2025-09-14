@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ------wow animation link ------------>
+    <link rel="stylesheet" href="css/libs/animate.css">
+    <!-- -----------bootstrap link--------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- font style -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+    </style>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- css style link -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- navbar -->
+    <link rel="stylesheet" href="navbar/style.css">
+    <!-- dropdown -->
+    <link rel="stylesheet" href="dropdown/style.css">
+    <!-- json link -->
+    <link rel="stylesheet" href="index.json">
+</head>
+
+<body>
+    <header>
+        <section class="d-flex justify-content-between align-items-center border-bottom header_info_css ">
+            <div class="menu_css">
+                <a class="pe-2 border-end" href="">About Us</a>
+                <a class="pe-2 ps-2 border-end" href="">My Account</a>
+                <a class="pe-2 ps-2 border-end" href="">Wishlist</a>
+                <a class="pe-2 ps-2 border-end" href="">Order Tracking</a>
+            </div>
+            <div class="offer_css">
+                <div>
+                    <div class="row slider-container">
+                        <ul class="text-center slider-content">
+                            <li class="slider-item">100% Secure delivery without contacting the courier</li>
+                            <li class="slider-item">Trendy 25silver jewelry, save up 35% off today</li>
+                            <li class="slider-item">Supper Value Deals - Save more with coupons</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="call_css">
+                <div style="display:flex; position: relative; gap: 10px;">
+                    <div><a class="pe-2 border-end" href="">Need help? Call Us: <span style="color: #3BB77E ;">1800
+                                0000</span></a></div>
+                    <div class="dropdown">
+                        <a data-bs-toggle="dropdown" aria-expanded="false" href="">English <i
+                                class="fa-solid fa-angle-down"></i></a>
+                        <ul class="dropdown-menu mt-2">
+                            <li><a class="dropdown-item" href="#">Français</a></li>
+                            <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                            <li><a class="dropdown-item" href="#">Pусский</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- mobile nav -->
+            <div class="mobile_nav row align-items-center justify-content-between border-bottom pt-3 pb-3">
+                <div class="col-4 col-lg-4">
+                    <button class="btn" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                            style="font-size: 30px;" class="fa-solid fa-sliders"></i></button>
+                </div>
+                <div class="col-4 col-lg-4">
+                    <div class="logo_css">
+                        <h2>OII</h2>
+                        <p>My One Business</p>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-4">
+                    <div class="d-flex gap-3">
+                        <div style="height: 50px;" class="d-flex align-items-end action_button_css ">
+                            <div>
+                                <a style="text-decoration: none;" href="">
+                                    <div class="d-flex">
+                                        <div>
+                                            <div class="header_action_icon_css">
+                                                <i class="fa-regular fa-heart mb-2"></i>
+                                            </div>
+                                            <div class="number_cird_css">
+                                                <h6>8</h6>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-end ">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-flex align-items-end action_button_css dropdown">
+                            <div id="hover_css">
+                                <div class="dropdown-container">
+                                    <a class="cart_css" style="text-decoration: none;" href="">
+                                        <div class="d-flex">
+                                            <div>
+                                                <div class="header_action_icon_css">
+                                                    <i class="fa-solid fa-cart-arrow-down mb-2"></i>
+                                                </div>
+                                                <div class="number_cird_css">
+                                                    <h6>2</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-content">
+                                        <div class="dropdown_css border rounded bg-white">
+                                            <div class="d-flex gap-2 align-items-center">
+                                                <div>
+                                                    <a href="">
+                                                        <img class="img-fluid dropdown_image_css"
+                                                            src="image/food/brooke-lark-HlNcigvUi4Q-unsplash.jpg"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="dropdown_content_css">
+                                                    <a href="">Daisy Casual Bag</a>
+                                                    <p>1 × $800.00</p>
+                                                </div>
+                                                <div>
+                                                    <a class="btn" href=""><i class="fa-solid fa-xmark"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- mobile nav end -->
+            <div class="searsh_nav">
+                <div class="row align-items-center pt-4 pb-4 border-bottom">
+                    <div class="col-lg-2">
+                        <div class="logo_css">
+                            <h2>OII</h2>
+                            <p>My One Business</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center rounded search_border">
+                            <div>
+                                <div>
+                                    <span id="Categorie-button" class="btn Categorie_button_css" href="">All Categories
+                                        <i class="fa-solid fa-chevron-down"></i></span>
+                                </div>
+
+                                <div id="dropdown-categorie" class="custom-select rounded">
+                                    <input style="width: 100%;" type="text" class="filter-input rounded" placeholder="">
+                                    <ul class="options ">
+                                        <a class="option btn" href="">All Categories</a>
+                                        <a class="option btn" href="">Milks and Dairies</a>
+                                        <a class="option btn" href="">Wines & Alcohol</a>
+                                        <a class="option btn" href="">Clothing & Beauty</a>
+                                        <a class="option btn" href="">Pet Foods & Toy</a>
+                                        <a class="option btn" href="">Fast food</a>
+                                        <a class="option btn" href="">Baking material</a>
+                                        <a class="option btn" href="">Vegetables</a>
+                                        <a class="option btn" href="">Fresh Seafood</a>
+                                        <a class="option btn" href="">Noodles & Rice</a>
+                                        <a class="option btn" href="">Ice cream</a>
+                                        <!-- Add more options here -->
+                                    </ul>
+                                </div>
+
+
+
+                            </div>
+                            <div class="vertical_bar_css"></div>
+                            <form style="width: 100%;" action="">
+                                <div>
+                                    <input type="text" class="search_css" placeholder="Search for items...">
+                                </div>
+                            </form>
+                            <a class="search_icon_css btn" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div style="height: 50px;" class="col-lg-3 d-flex align-items-end action_button_css ">
+                                <div>
+                                    <a style="text-decoration: none;" href="">
+                                        <div class="d-flex">
+                                            <div>
+                                                <div class="header_action_icon_css">
+                                                    <i class="fa-solid fa-arrows-rotate mb-2"></i>
+                                                </div>
+                                                <div class="number_cird_css">
+                                                    <h6>5</h6>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-end ">
+                                                <h6 class="Compare" style="margin-bottom: 0;">Compare</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div style="height: 50px;" class="col-lg-3 d-flex align-items-end action_button_css ">
+                                <div>
+                                    <a style="text-decoration: none;" href="">
+                                        <div class="d-flex">
+                                            <div>
+                                                <div class="header_action_icon_css">
+                                                    <i class="fa-regular fa-heart mb-2"></i>
+                                                </div>
+                                                <div class="number_cird_css">
+                                                    <h6>8</h6>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-end ">
+                                                <h6 class="Compare" style="margin-bottom: 0;">Wishlist</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 d-flex align-items-end action_button_css dropdown">
+                                <div id="hover_css">
+                                    <div class="dropdown-container">
+                                        <a class="cart_css" style="text-decoration: none;" href="">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <div class="header_action_icon_css">
+                                                        <i class="fa-solid fa-cart-arrow-down mb-2"></i>
+                                                    </div>
+                                                    <div class="number_cird_css">
+                                                        <h6>2</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-end">
+                                                    <h6 class="Compare" style="margin-bottom: 0;">Cart</h6>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-content">
+                                            <div class="dropdown_css border rounded bg-white">
+                                                <div class="d-flex gap-2 align-items-center">
+                                                    <div>
+                                                        <a href="">
+                                                            <img class="img-fluid dropdown_image_css"
+                                                                src="image/food/brooke-lark-HlNcigvUi4Q-unsplash.jpg"
+                                                                alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="dropdown_content_css">
+                                                        <a href="">Daisy Casual Bag</a>
+                                                        <p>1 × $800.00</p>
+                                                    </div>
+                                                    <div>
+                                                        <a class="btn" href=""><i class="fa-solid fa-xmark"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div style="height: 50px;" class="col-lg-3 d-flex align-items-end action_button_css ">
+                                <div id="hover_css_account">
+                                    <a style="text-decoration: none;" href="">
+                                        <div class="d-flex">
+                                            <div>
+                                                <div class="header_action_icon_css">
+                                                    <i class="fa-regular fa-circle-user mb-2"></i>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-end ">
+                                                <h6 class="Compare" style="margin-bottom: 0;">
+                                                    Account</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- navbar -->
+        <section class="navbar_css border-bottom">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <div class="dropdown_select">
+                        <input class="text-box" type="text" placeholder=" Browse All Categories
+                        " readonly>
+                        <div style="z-index: 5;" class="options border">
+                            <div class="row p-4 gy-3 gx-5">
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-cow Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Milks and Dairies</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-brands fa-cotton-bureau Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Clothing & beauty</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-paw Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Pet Foods & Toy</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-plane-departure Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Baking material</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-spray-can-sparkles Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Fresh Fruit</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-cow Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Milks and Dairies</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-cow Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Milks and Dairies</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-cow Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Milks and Dairies</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-cow Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Milks and Dairies</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-cow Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Milks and Dairies</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-cow Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Milks and Dairies</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-cow Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Milks and Dairies</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-cow Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Milks and Dairies</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 Milks_css p-0 pe-2 ps-2">
+                                    <a class="btn Browse_a_css" href="#">
+                                        <div class="d-flex justify-content-center align-items-center gap-2">
+                                            <div>
+                                                <i class="fa-solid fa-cow Milks_icon"></i>
+                                            </div>
+                                            <div>
+                                                <h6 class="milk_content_css">Milks and Dairies</h6>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar">
+                    <ul class="navbar-links">
+                        <li class="navbar-dropdown">
+                            <a class="navbar-dropdown_css" href="#"><i class="fa-solid fa-fire"></i> Deals</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-links">
+                        <li class="navbar-dropdown">
+                            <a class="navbar-dropdown_css" href="#">Home <i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="dropdown border rounded">
+                                <a href="#">Home 1</a>
+                                <a href="#">Home 2</a>
+                                <a href="#">Home 3</a>
+                                <a href="#">Home 4</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-links">
+                        <li class="navbar-dropdown">
+                            <a class="navbar-dropdown_css" href="#">About</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-links">
+                        <li class="navbar-dropdown">
+                            <a class="navbar-dropdown_css" href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="dropdown border rounded">
+                                <a href="#">Home 1</a>
+                                <a href="#">Home 2</a>
+                                <a href="#">Home 3</a>
+                                <a href="#">Home 4</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-links">
+                        <li class="navbar-dropdown">
+                            <a class="navbar-dropdown_css" href="#">Vendors <i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="dropdown border rounded">
+                                <a href="#">Home 1</a>
+                                <a href="#">Home 2</a>
+                                <a href="#">Home 3</a>
+                                <a href="#">Home 4</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-links">
+                        <li class="navbar-dropdown">
+                            <a class="navbar-dropdown_css" href="#">Mega menu <i
+                                    class="fa-solid fa-chevron-down"></i></a>
+                            <div class="dropdown border rounded">
+                                <a href="#">Home 1</a>
+                                <a href="#">Home 2</a>
+                                <a href="#">Home 3</a>
+                                <a href="#">Home 4</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-links">
+                        <li class="navbar-dropdown">
+                            <a class="navbar-dropdown_css" href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="dropdown border rounded">
+                                <a href="#">Home 1</a>
+                                <a href="#">Home 2</a>
+                                <a href="#">Home 3</a>
+                                <a href="#">Home 4</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-links">
+                        <li class="navbar-dropdown">
+                            <a class="navbar-dropdown_css" href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="dropdown border rounded">
+                                <a href="#">Home 1</a>
+                                <a href="#">Home 2</a>
+                                <a href="#">Home 3</a>
+                                <a href="#">Home 4</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-links">
+                        <li class="navbar-dropdown">
+                            <a class="navbar-dropdown_css" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="d-flex justify-content-center align-items-center gap-2">
+                    <div class="Contact_icon_css">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <div class="Contact_info_css">
+                        <h4>1800-880</h4>
+                        <p>24/7 Support Center</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- saidebar -->
+        <section>
+            <div>
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                    aria-labelledby="offcanvasWithBothOptionsLabel">
+
+                    <div class="offcanvas-body p-4 ms-3 me-3">
+                        <div class="d-flex justify-content-between align-items-center mb-5">
+                            <div class="logo_css">
+                                <h2>OII</h2>
+                                <p>My One Business</p>
+                            </div>
+                            <div>
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex m-1 rounded search_border">
+                            <form style="width: 100%;" action="">
+                                <div>
+                                    <input type="text" class="search_css" placeholder="Search for items...">
+                                </div>
+                            </form>
+                            <a class="search_icon_css btn" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>
+                        <ul class="p-0">
+                            <li class='sub-menu'>
+                                <a class="sub-menu_css position-relative" href='#settings'>Home
+                                    <p
+                                        class='fa fa-caret-down right position-absolute top-50 start-100 translate-middle'>
+                                    </p>
+                                </a>
+                                <ul>
+                                    <li><a href='#settings'>Home 1</a></li>
+                                    <li><a href='#settings'>Home 2</a></li>
+                                    <li><a href='#settings'>Home 3</a></li>
+                                    <li><a href='#settings'>Home 4</a></li>
+                                    <li><a href='#settings'>Home 5</a></li>
+                                    <li><a href='#settings'>Home 6</a></li>
+                                </ul>
+                            </li>
+                            <li class='sub-menu'>
+                                <a class="sub-menu_css position-relative" href='#settings'>Shop
+                                    <p
+                                        class='fa fa-caret-down right position-absolute top-50 start-100 translate-middle'>
+                                    </p>
+                                </a>
+                                <ul>
+                                    <li><a href='#settings'>Shop Grid – Right Sidebar</a></li>
+                                    <li><a href='#settings'>Shop Grid – Left Sidebar</a></li>
+                                    <li><a href='#settings'>Shop List – Right Sidebar</a></li>
+                                    <li><a href='#settings'>Shop List – Left Sidebar</a></li>
+                                    <li><a href='#settings'>Shop - Wide</a></li>
+                                    <li class='sub-menu'>
+                                        <a class="sub-menu_css position-relative" href='#settings'>Single Product
+                                            <p
+                                                class='fa fa-caret-down right position-absolute top-50 start-100 translate-middle'>
+                                            </p>
+                                        </a>
+                                        <ul>
+                                            <li><a href='#settings'>Shop Grid – Right Sidebar</a></li>
+                                            <li><a href='#settings'>Shop Grid – Right Sidebar</a></li>
+                                            <li><a href='#settings'>Shop Grid – Left Sidebar</a></li>
+                                            <li><a href='#settings'>Shop List – Right Sidebar</a></li>
+                                            <li><a href='#settings'>Shop List – Left Sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='#settings'>Shop – Filter</a></li>
+                                    <li><a href='#settings'>Shop – Wishlist</a></li>
+                                    <li><a href='#settings'>Shop – Cart</a></li>
+                                    <li><a href='#settings'>Shop – Checkout</a></li>
+                                    <li><a href='#settings'>Shop – Checkout</a></li>
+                                    <li><a href='#settings'>Shop – Compare</a></li>
+                                    <li><a href='#settings'>Shop – Compare</a></li>
+                                    <li class='sub-menu'>
+                                        <a class="sub-menu_css position-relative" href='#settings'>Shop Invoice
+                                            <p
+                                                class='fa fa-caret-down right position-absolute top-50 start-100 translate-middle'>
+                                            </p>
+                                        </a>
+                                        <ul>
+                                            <li><a href='#settings'>Shop Invoice 1</a></li>
+                                            <li><a href='#settings'>Shop Invoice 2</a></li>
+                                            <li><a href='#settings'>Shop Invoice 3</a></li>
+                                            <li><a href='#settings'>Shop Invoice 4</a></li>
+                                            <li><a href='#settings'>Shop Invoice 5</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class='sub-menu'>
+                                <a class="sub-menu_css position-relative" href='#settings'>Vendors
+                                    <p
+                                        class='fa fa-caret-down right position-absolute top-50 start-100 translate-middle'>
+                                    </p>
+                                </a>
+                                <ul>
+                                    <li><a href='#settings'>Vendors Grid</a></li>
+                                    <li><a href='#settings'>Vendors List</a></li>
+                                    <li><a href='#settings'>Vendor Details 01</a></li>
+                                    <li><a href='#settings'>Vendor Details 02</a></li>
+                                    <li><a href='#settings'>Vendor Dashboard</a></li>
+                                    <li><a href='#settings'>Vendor Guide</a></li>
+                                </ul>
+                            </li>
+                            <li class='sub-menu'>
+                                <a class="sub-menu_css position-relative" href='#settings'>Mega Menu
+                                    <p
+                                        class='fa fa-caret-down right position-absolute top-50 start-100 translate-middle'>
+                                    </p>
+                                </a>
+                                <ul>
+                                    <li><a href='#settings'>Account</a></li>
+                                    <li><a href='#settings'>Profile</a></li>
+                                    <li><a href='#settings'>Secruity &amp; Privacy</a></li>
+                                    <li><a href='#settings'>Password</a></li>
+                                    <li><a href='#settings'>Notification</a></li>
+                                </ul>
+                            </li>
+                            <li class='sub-menu'>
+                                <a class="sub-menu_css position-relative" href='#settings'>Blog
+                                    <p
+                                        class='fa fa-caret-down right position-absolute top-50 start-100 translate-middle'>
+                                    </p>
+                                </a>
+                                <ul>
+                                    <li><a href='#settings'>Account</a></li>
+                                    <li><a href='#settings'>Profile</a></li>
+                                    <li><a href='#settings'>Secruity &amp; Privacy</a></li>
+                                    <li><a href='#settings'>Password</a></li>
+                                    <li><a href='#settings'>Notification</a></li>
+                                </ul>
+                            </li>
+                            <li class='sub-menu'>
+                                <a class="sub-menu_css position-relative" href='#settings'>Pages
+                                    <p
+                                        class='fa fa-caret-down right position-absolute top-50 start-100 translate-middle'>
+                                    </p>
+                                </a>
+                                <ul>
+                                    <li><a href='#settings'>Account</a></li>
+                                    <li><a href='#settings'>Profile</a></li>
+                                    <li><a href='#settings'>Secruity &amp; Privacy</a></li>
+                                    <li><a href='#settings'>Password</a></li>
+                                    <li><a href='#settings'>Notification</a></li>
+                                </ul>
+                            </li>
+                            <li class='sub-menu'>
+                                <a class="sub-menu_css position-relative" href='#settings'>Language
+                                    <p
+                                        class='fa fa-caret-down right position-absolute top-50 start-100 translate-middle'>
+                                    </p>
+                                </a>
+                                <ul>
+                                    <li><a href='#settings'>Français</a></li>
+                                    <li><a href='#settings'>Deutsch</a></li>
+                                    <li><a href='#settings'>Pусский</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="mt-4 mb-4 border rounded p-4">
+                            <div class="mb-2">
+                                <a class="btn d-flex align-items-center gap-2" href="">
+                                    <i style="color: #3BB77E;" class=" fa-solid fa-location-dot mb-0"></i>
+                                    <p class="mb-0">Our location</p>
+                                </a>
+                            </div>
+                            <div class="mb-2">
+                                <a class="btn d-flex align-items-center gap-2" href="">
+                                    <i style="color: #3BB77E;" class=" fa-solid fa-users mb-0"></i>
+                                    <p class="mb-0">Log In / Sign Up</p>
+                                </a>
+                            </div>
+                            <div class="mb-2">
+                                <a class="btn d-flex align-items-center gap-2" href="">
+                                    <i style="color: #3BB77E;" class=" fa-solid fa-headset mb-0"></i>
+                                    <p class="mb-0">(+01) - 2345 - 6789</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="Follow_Us_css">
+                            <h4 class="mb-3">Follow Us</h4>
+                        </div>
+                        <div class="d-flex gap-3 mb-5">
+                            <a class="social_icon_css" href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="social_icon_css" href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a class="social_icon_css" href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a class="social_icon_css" href=""><i class="fa-brands fa-pinterest"></i></a>
+                            <a class="social_icon_css" href=""><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <div>
+                            <p style="font-size: 14px;">Copyright 2022 ©</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- header carusal -->
+        <section class="carousel_container_css mt-5 mb-5">
+            <div class="hover_css">
+                <div class="carusal_button_1 ">
+                    <button class="btn a_btn"><span>
+                            <i class="fa-solid fa-angle-left"></i>
+                        </span></button>
+                </div>
+                <div class="carusal_button_2 ">
+                    <button class="btn b_btn"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+                <div class="header_carousel_css">
+                    <div class="swiper mySwiper rounded-5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slider_1">
+                                <div class="position-absolute slider_1_css">
+                                    <h2 class="slider_1_css_h2">
+                                        Fresh Vegetables</h2>
+                                    <h2>
+                                        Big discount
+                                    </h2>
+                                    <p>Save up to 50% off on your first order</p>
+                                    <div>
+                                        <form class="Subscribe_css row rounded-5">
+                                            <div class="ms-3">
+                                                <i class="fa-solid fa-paper-plane"></i>
+                                                <input class="email_css" type="email"
+                                                    placeholder=" Your email address..." required="">
+                                                <input class="btn Subscribe_button_css" type="submit" value="Subscribe">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <img class="img-fluid slider_img_css" src="image/carusal/slider-1.png" />
+                            </div>
+                            <div class="swiper-slide slider_1">
+                                <div class="position-absolute slider_1_css">
+                                    <h2 class="slider_1_css_h2">Don’t miss amazing</h2>
+                                    <h2>grocery deals</h2>
+                                    <p>Sign up for the daily newsletter</p>
+                                    <div>
+                                        <form class="Subscribe_css row rounded-5">
+                                            <div class="ms-3">
+                                                <i class="fa-solid fa-paper-plane"></i>
+                                                <input class="email_css" type="email"
+                                                    placeholder=" Your email address..." required="">
+                                                <input class="btn Subscribe_button_css" type="submit" value="Subscribe">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <img class="img-fluid slider_img_css" src="image/carusal/slider-2.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Featured Categories -->
+    <section>
+        <div class="d-flex align-items-center justify-content-between mb-5">
+            <div class="d-flex align-items-center Featured">
+                <h3 style="font-size: 32px; font-weight: 700; color: black;" class="Featured_css">Featured Categories
+                </h3>
+                <div class="Featured_Categories_itam_css">
+                    <a href="#">Cake & Milk</a>
+                    <a href="#">Coffes & Teas</a>
+                    <a href="#">Pet Foods</a>
+                    <a href="#">Vegetables</a>
+                </div>
+            </div>
+            <div class="d-flex gap-3">
+                <div>
+                    <a class="Featured_slider_button_css Featured_sliders_prev" href=""><i
+                            class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                <div>
+                    <a class="Featured_slider_button_css Featured_sliders_next" href=""><i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="mb-5">
+            <!-- Featured slider -->
+            <div class="swiper Featured_sliders">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3"
+                                src="image/Vegetables/3-2-vegetable-transparent.png" alt="">
+                            <h5 class="m-0 Snack">Snack</h5>
+                            <p class="m-0">56 items</p>
+                        </a>
+                    </div>
+                    <div style="background-color: #FFF3FF;" class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/2.png" alt="">
+                            <h5 class="m-0 Snack">Vegetables</h5>
+                            <p class="m-0">72 items</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/3.png" alt="">
+                            <h5 class="m-0 Snack">Strawberry</h5>
+                            <p class="m-0">55 items</p>
+                        </a>
+                    </div>
+                    <div style="background-color: #FFF3FF;" class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/4.png" alt="">
+                            <h5 class="m-0 Snack">Black plum</h5>
+                            <p class="m-0">150 items</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/5.png" alt="">
+                            <h5 class="m-0 Snack">Custard apple</h5>
+                            <p class="m-0">502 items</p>
+                        </a>
+                    </div>
+                    <div style="background-color: #FFF3FF;" class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/6.png" alt="">
+                            <h5 class="m-0 Snack">Coffe & Tea</h5>
+                            <p class="m-0">96 items</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/7.png" alt="">
+                            <h5 class="m-0 Snack">Headphone</h5>
+                            <p class="m-0">12 items</p>
+                        </a>
+                    </div>
+                    <div style="background-color: #FFF3FF;" class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/8.png" alt="">
+                            <h5 class="m-0 Snack">Cake & Milk</h5>
+                            <p class="m-0">45 items</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/9.png" alt="">
+                            <h5 class="m-0 Snack">Oganic Kiwi</h5>
+                            <p class="m-0">65 items</p>
+                        </a>
+                    </div>
+                    <div style="background-color: #FFF3FF;" class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/10.png" alt="">
+                            <h5 class="m-0 Snack">Peach</h5>
+                            <p class="m-0">52 items</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3"
+                                src="image/Vegetables/3-2-vegetable-transparent.png" alt="">
+                            <h5 class="m-0 Snack">Snack</h5>
+                            <p class="m-0">56 items</p>
+                        </a>
+                    </div>
+                    <div style="background-color: #FFF3FF;" class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/2.png" alt="">
+                            <h5 class="m-0 Snack">Vegetables</h5>
+                            <p class="m-0">72 items</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/3.png" alt="">
+                            <h5 class="m-0 Snack">Strawberry</h5>
+                            <p class="m-0">55 items</p>
+                        </a>
+                    </div>
+                    <div style="background-color: #FFF3FF;" class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/4.png" alt="">
+                            <h5 class="m-0 Snack">Black plum</h5>
+                            <p class="m-0">150 items</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/5.png" alt="">
+                            <h5 class="m-0 Snack">Custard apple</h5>
+                            <p class="m-0">502 items</p>
+                        </a>
+                    </div>
+                    <div style="background-color: #FFF3FF;" class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/6.png" alt="">
+                            <h5 class="m-0 Snack">Coffe & Tea</h5>
+                            <p class="m-0">96 items</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/7.png" alt="">
+                            <h5 class="m-0 Snack">Headphone</h5>
+                            <p class="m-0">12 items</p>
+                        </a>
+                    </div>
+                    <div style="background-color: #FFF3FF;" class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/8.png" alt="">
+                            <h5 class="m-0 Snack">Cake & Milk</h5>
+                            <p class="m-0">45 items</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/9.png" alt="">
+                            <h5 class="m-0 Snack">Oganic Kiwi</h5>
+                            <p class="m-0">65 items</p>
+                        </a>
+                    </div>
+                    <div style="background-color: #FFF3FF;" class="swiper-slide Featured_slider rounded-3 mb-3">
+                        <a class="Featured_slider_info" href="">
+                            <img class="img-fluid Featured_slider_img mb-3" src="image/Vegetables/10.png" alt="">
+                            <h5 class="m-0 Snack">Peach</h5>
+                            <p class="m-0">52 items</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="mb-5">
+            <div class="row gx-3 gy-3">
+                <div id="banner_hover_css" class="col-12 col-sm-6 col-lg-4 banner_1 rounded-4">
+                    <div class="banner_info_css">
+                        <h4 class="mb-5">
+                            Everyday Fresh <br>Clean with Our<br>
+                            Products
+                        </h4>
+                        <a class="btn btn-primary" href="">Shop Now</a>
+                    </div>
+                    <img class="img-fluid banner_img rounded-4" src="image/baner/banner-1.png" alt="">
+                </div>
+                <div id="banner_hover_css" class="col-12 col-sm-6 col-lg-4 banner_1 rounded-4">
+                    <div class="banner_info_css">
+                        <h4 class="mb-5">
+                            Everyday Fresh <br>Clean with Our<br>
+                            Products
+                        </h4>
+                        <a class="btn btn-primary" href="">Shop Now</a>
+                    </div>
+                    <img class="img-fluid banner_img rounded-4" src="image/baner/banner-2.png" alt="">
+                </div>
+                <div id="banner_hover_css" class="col-12 col-sm-6 col-lg-4 banner_1 rounded-4">
+                    <div class="banner_info_css">
+                        <h4 class="mb-5">
+                            Everyday Fresh <br>Clean with Our<br>
+                            Products
+                        </h4>
+                        <a class="btn btn-primary" href="">Shop Now</a>
+                    </div>
+                    <img class="img-fluid banner_img rounded-4" src="image/baner/banner-3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Popular Products -->
+    <section>
+        <div class="mb-5">
+            <div class="d-flex align-items-center justify-content-between Popular_Products_css">
+                <div class="Popular_headar_css">
+                    <h3>Popular Products</h3>
+                </div>
+                <div class="Popular_Product_tags_css">
+                    <a style="color: #3BB77E;" href="">All</a>
+                    <a href="">Milks & Dairies</a>
+                    <a href="">Coffes & Teas</a>
+                    <a href="">Pet Foods</a>
+                    <a href="">Meats</a>
+                    <a href="">Vegetables</a>
+                    <a href="">Fruits</a>
+                </div>
+            </div>
+            <!-- Product -->
+            <section class="mt-5">
+                <div class="d-flex flex-wrap justify-content-center gap-4 Popular_Products_itam">
+                    <div class="position-relative rounded-4 overflow-hidden product_hover_css">
+                        <div class="position-absolute hot_css">
+                            <span class="hot">Hot</span>
+                        </div>
+                        <div class="p-4 Popular_Products_itam_1 ">
+                            <div class="Products_img_css position-relative">
+                                <div>
+                                    <img class="img-fluid Products_img_1" src="image/product/product-1-1.jpg" alt="">
+                                    <img class="img-fluid Products_img_2" src="image/product/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="Products_action_css">
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-regular fa-heart"></i></a>
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-solid fa-shuffle"></i></a>
+                                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="Snack" href="">Snack</a>
+                                <h2 class="product_name_css">Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="d-flex align-items-center reting_css">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p class="m-0 ms-2">(4.0)</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="uploder_css">By <span><a href="">NestFood</a></span></p>
+                            </div>
+                            <div class="pricing_css d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-end gap-1">
+                                    <h4 class="price_css">$28.85</h4>
+                                    <h5 class="old_price_css"><del>$32.8</del></h5>
+                                </div>
+                                <div>
+                                    <a class="btn add_button_css" href=""><i class="fa-solid fa-cart-arrow-down"></i> Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative rounded-4 overflow-hidden product_hover_css">
+                        <div style="background-color:#3BB77E;" class="position-absolute hot_css">
+                            <span class="hot">New</span>
+                        </div>
+                        <div class="p-4 Popular_Products_itam_1 ">
+                            <div class="Products_img_css position-relative">
+                                <div>
+                                    <img class="img-fluid Products_img_1" src="image/product/product-1-1.jpg" alt="">
+                                    <img class="img-fluid Products_img_2" src="image/product/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="Products_action_css">
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-regular fa-heart"></i></a>
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-solid fa-shuffle"></i></a>
+                                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="Snack" href="">Snack</a>
+                                <h2 class="product_name_css">Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="d-flex align-items-center reting_css">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p class="m-0 ms-2">(4.0)</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="uploder_css">By <span><a href="">NestFood</a></span></p>
+                            </div>
+                            <div class="pricing_css d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-end gap-1">
+                                    <h4 class="price_css">$28.85</h4>
+                                    <h5 class="old_price_css"><del>$32.8</del></h5>
+                                </div>
+                                <div>
+                                    <a class="btn add_button_css" href=""><i class="fa-solid fa-cart-arrow-down"></i> Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative rounded-4 overflow-hidden product_hover_css">
+                        <div class="position-absolute hot_css">
+                            <span class="hot">Hot</span>
+                        </div>
+                        <div class="p-4 Popular_Products_itam_1 ">
+                            <div class="Products_img_css position-relative">
+                                <div>
+                                    <img class="img-fluid Products_img_1" src="image/product/product-1-1.jpg" alt="">
+                                    <img class="img-fluid Products_img_2" src="image/product/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="Products_action_css">
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-regular fa-heart"></i></a>
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-solid fa-shuffle"></i></a>
+                                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="Snack" href="">Snack</a>
+                                <h2 class="product_name_css">Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="d-flex align-items-center reting_css">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p class="m-0 ms-2">(4.0)</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="uploder_css">By <span><a href="">NestFood</a></span></p>
+                            </div>
+                            <div class="pricing_css d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-end gap-1">
+                                    <h4 class="price_css">$28.85</h4>
+                                    <h5 class="old_price_css"><del>$32.8</del></h5>
+                                </div>
+                                <div>
+                                    <a class="btn add_button_css" href=""><i class="fa-solid fa-cart-arrow-down"></i> Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative rounded-4 overflow-hidden product_hover_css">
+                        <div style="background-color:#3BB77E;" class="position-absolute hot_css">
+                            <span class="hot">New</span>
+                        </div>
+                        <div class="p-4 Popular_Products_itam_1 ">
+                            <div class="Products_img_css position-relative">
+                                <div>
+                                    <img class="img-fluid Products_img_1" src="image/product/product-1-1.jpg" alt="">
+                                    <img class="img-fluid Products_img_2" src="image/product/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="Products_action_css">
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-regular fa-heart"></i></a>
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-solid fa-shuffle"></i></a>
+                                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="Snack" href="">Snack</a>
+                                <h2 class="product_name_css">Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="d-flex align-items-center reting_css">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p class="m-0 ms-2">(4.0)</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="uploder_css">By <span><a href="">NestFood</a></span></p>
+                            </div>
+                            <div class="pricing_css d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-end gap-1">
+                                    <h4 class="price_css">$28.85</h4>
+                                    <h5 class="old_price_css"><del>$32.8</del></h5>
+                                </div>
+                                <div>
+                                    <a class="btn add_button_css" href=""><i class="fa-solid fa-cart-arrow-down"></i> Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative rounded-4 overflow-hidden product_hover_css">
+                        <div class="position-absolute hot_css">
+                            <span class="hot">Hot</span>
+                        </div>
+                        <div class="p-4 Popular_Products_itam_1 ">
+                            <div class="Products_img_css position-relative">
+                                <div>
+                                    <img class="img-fluid Products_img_1" src="image/product/product-1-1.jpg" alt="">
+                                    <img class="img-fluid Products_img_2" src="image/product/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="Products_action_css">
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-regular fa-heart"></i></a>
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-solid fa-shuffle"></i></a>
+                                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="Snack" href="">Snack</a>
+                                <h2 class="product_name_css">Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="d-flex align-items-center reting_css">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p class="m-0 ms-2">(4.0)</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="uploder_css">By <span><a href="">NestFood</a></span></p>
+                            </div>
+                            <div class="pricing_css d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-end gap-1">
+                                    <h4 class="price_css">$28.85</h4>
+                                    <h5 class="old_price_css"><del>$32.8</del></h5>
+                                </div>
+                                <div>
+                                    <a class="btn add_button_css" href=""><i class="fa-solid fa-cart-arrow-down"></i> Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative rounded-4 overflow-hidden product_hover_css">
+                        <div style="background-color:#3BB77E;" class="position-absolute hot_css">
+                            <span class="hot">New</span>
+                        </div>
+                        <div class="p-4 Popular_Products_itam_1 ">
+                            <div class="Products_img_css position-relative">
+                                <div>
+                                    <img class="img-fluid Products_img_1" src="image/product/product-1-1.jpg" alt="">
+                                    <img class="img-fluid Products_img_2" src="image/product/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="Products_action_css">
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-regular fa-heart"></i></a>
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-solid fa-shuffle"></i></a>
+                                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="Snack" href="">Snack</a>
+                                <h2 class="product_name_css">Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="d-flex align-items-center reting_css">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p class="m-0 ms-2">(4.0)</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="uploder_css">By <span><a href="">NestFood</a></span></p>
+                            </div>
+                            <div class="pricing_css d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-end gap-1">
+                                    <h4 class="price_css">$28.85</h4>
+                                    <h5 class="old_price_css"><del>$32.8</del></h5>
+                                </div>
+                                <div>
+                                    <a class="btn add_button_css" href=""><i class="fa-solid fa-cart-arrow-down"></i> Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative rounded-4 overflow-hidden product_hover_css">
+                        <div class="position-absolute hot_css">
+                            <span class="hot">Hot</span>
+                        </div>
+                        <div class="p-4 Popular_Products_itam_1 ">
+                            <div class="Products_img_css position-relative">
+                                <div>
+                                    <img class="img-fluid Products_img_1" src="image/product/product-1-1.jpg" alt="">
+                                    <img class="img-fluid Products_img_2" src="image/product/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="Products_action_css">
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-regular fa-heart"></i></a>
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-solid fa-shuffle"></i></a>
+                                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="Snack" href="">Snack</a>
+                                <h2 class="product_name_css">Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="d-flex align-items-center reting_css">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p class="m-0 ms-2">(4.0)</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="uploder_css">By <span><a href="">NestFood</a></span></p>
+                            </div>
+                            <div class="pricing_css d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-end gap-1">
+                                    <h4 class="price_css">$28.85</h4>
+                                    <h5 class="old_price_css"><del>$32.8</del></h5>
+                                </div>
+                                <div>
+                                    <a class="btn add_button_css" href=""><i class="fa-solid fa-cart-arrow-down"></i> Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative rounded-4 overflow-hidden product_hover_css">
+                        <div style="background-color:#3BB77E;" class="position-absolute hot_css">
+                            <span class="hot">New</span>
+                        </div>
+                        <div class="p-4 Popular_Products_itam_1 ">
+                            <div class="Products_img_css position-relative">
+                                <div>
+                                    <img class="img-fluid Products_img_1" src="image/product/product-1-1.jpg" alt="">
+                                    <img class="img-fluid Products_img_2" src="image/product/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="Products_action_css">
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-regular fa-heart"></i></a>
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-solid fa-shuffle"></i></a>
+                                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="Snack" href="">Snack</a>
+                                <h2 class="product_name_css">Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="d-flex align-items-center reting_css">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p class="m-0 ms-2">(4.0)</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="uploder_css">By <span><a href="">NestFood</a></span></p>
+                            </div>
+                            <div class="pricing_css d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-end gap-1">
+                                    <h4 class="price_css">$28.85</h4>
+                                    <h5 class="old_price_css"><del>$32.8</del></h5>
+                                </div>
+                                <div>
+                                    <a class="btn add_button_css" href=""><i class="fa-solid fa-cart-arrow-down"></i> Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative rounded-4 overflow-hidden product_hover_css">
+                        <div class="position-absolute hot_css">
+                            <span class="hot">Hot</span>
+                        </div>
+                        <div class="p-4 Popular_Products_itam_1 ">
+                            <div class="Products_img_css position-relative">
+                                <div>
+                                    <img class="img-fluid Products_img_1" src="image/product/product-1-1.jpg" alt="">
+                                    <img class="img-fluid Products_img_2" src="image/product/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="Products_action_css">
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-regular fa-heart"></i></a>
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-solid fa-shuffle"></i></a>
+                                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="Snack" href="">Snack</a>
+                                <h2 class="product_name_css">Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="d-flex align-items-center reting_css">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p class="m-0 ms-2">(4.0)</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="uploder_css">By <span><a href="">NestFood</a></span></p>
+                            </div>
+                            <div class="pricing_css d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-end gap-1">
+                                    <h4 class="price_css">$28.85</h4>
+                                    <h5 class="old_price_css"><del>$32.8</del></h5>
+                                </div>
+                                <div>
+                                    <a class="btn add_button_css" href=""><i class="fa-solid fa-cart-arrow-down"></i> Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative rounded-4 overflow-hidden product_hover_css">
+                        <div style="background-color:#3BB77E;" class="position-absolute hot_css">
+                            <span class="hot">New</span>
+                        </div>
+                        <div class="p-4 Popular_Products_itam_1 ">
+                            <div class="Products_img_css position-relative">
+                                <div>
+                                    <img class="img-fluid Products_img_1" src="image/product/product-1-1.jpg" alt="">
+                                    <img class="img-fluid Products_img_2" src="image/product/product-1-2.jpg" alt="">
+                                </div>
+                                <div class="position-absolute">
+                                    <div class="Products_action_css">
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-regular fa-heart"></i></a>
+                                        <a style="border-right:1px solid #18995d8d;" href=""><i
+                                                class="fa-solid fa-shuffle"></i></a>
+                                        <a href=""><i class="fa-regular fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="Snack" href="">Snack</a>
+                                <h2 class="product_name_css">Seeds of Change Organic Quinoa, Brown, & Red Rice</h2>
+                                <div class="d-flex align-items-center reting_css">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p class="m-0 ms-2">(4.0)</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="uploder_css">By <span><a href="">NestFood</a></span></p>
+                            </div>
+                            <div class="pricing_css d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-end gap-1">
+                                    <h4 class="price_css">$28.85</h4>
+                                    <h5 class="old_price_css"><del>$32.8</del></h5>
+                                </div>
+                                <div>
+                                    <a class="btn add_button_css" href=""><i class="fa-solid fa-cart-arrow-down"></i> Add</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <!-- ------------------------------------end-------------------------------------------->
+
+    <!-- wow animation link -->
+    <script src="dist/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--------- bootstrap js link-------- -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!------------------- fontawesome icon--------------- -->
+    <script src="https://kit.fontawesome.com/c8fa2ade6b.js" crossorigin="anonymous"></script>
+    <!-- Swiper slider JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            loop: true,
+            autoHeight: true,
+            effect: "fade",
+            navigation: {
+                nextEl: ".a_btn",
+                prevEl: ".b_btn",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 50000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".Featured_sliders", {
+            slidesPerView: 10,
+            spaceBetween: 30,
+            loop: true,
+            navigation: {
+                nextEl: ".Featured_sliders_next",
+                prevEl: ".Featured_sliders_prev",
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 3,
+                    spaceBetween: 15,
+                },
+                1000: {
+                    slidesPerView: 4,
+                    spaceBetween: 25,
+                },
+                1400: {
+                    slidesPerView: 10,
+                    spaceBetween: 30,
+                },
+            },
+        });
+    </script>
+
+    <!-- text slider  -->
+    <script src="text slider.js"></script>
+    <script>
+        const sliderContainer = document.querySelector('.slider-container');
+        const sliderContent = document.querySelector('.slider-content');
+        const sliderItems = document.querySelectorAll('.slider-item');
+        let currentIndex = 0;
+
+        function updateSliderPosition() {
+            const itemHeight = sliderItems[0].offsetHeight;
+            sliderContent.style.top = `-${currentIndex * itemHeight}px`;
+        }
+
+        function nextItem() {
+            if (currentIndex < sliderItems.length - 1) {
+                currentIndex++;
+            } else {
+                currentIndex = 0; // Loop back to the first item
+            }
+            updateSliderPosition();
+        }
+
+        function prevItem() {
+            if (currentIndex > 0) {
+                currentIndex--;
+            } else {
+                currentIndex = sliderItems.length - 1; // Loop back to the last item
+            }
+            updateSliderPosition();
+        }
+
+        setInterval(nextItem, 2000); // Automatically scroll to the next item every 2 seconds
+    </script>
+
+    <!-- Categorie select -->
+    <script>
+        const filterInput = document.querySelector('.filter-input');
+        const options = document.querySelectorAll('.option');
+
+        filterInput.addEventListener('input', function () {
+            const filterText = this.value.toLowerCase();
+
+            options.forEach((option) => {
+                const optionText = option.textContent.toLowerCase();
+                if (optionText.includes(filterText)) {
+                    option.style.display = 'block';
+                } else {
+                    option.style.display = 'none';
+                }
+            });
+        });
+
+        options.forEach((option) => {
+            option.addEventListener('click', function () {
+                filterInput.value = this.textContent;
+                options.forEach((opt) => (opt.style.display = 'block'));
+            });
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const button = document.getElementById('Categorie-button');
+            const menu = document.getElementById('dropdown-categorie');
+
+            button.addEventListener('click', function (event) {
+                event.stopPropagation(); // Prevent the click event from bubbling up to the document
+                menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+            });
+
+            // Close the dropdown when clicking anywhere outside of it
+            document.addEventListener('click', function (event) {
+                if (menu.style.display === 'block' && event.target !== button && !menu.contains(event.target)) {
+                    menu.style.display = 'none';
+                }
+            });
+        });
+
+    </script>
+    <!-- dropdown -->
+    <script src="dropdown/script.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $('.sub-menu ul').hide();
+        $(".sub-menu a").click(function () {
+            $(this).parent(".sub-menu").children("ul").slideToggle("100");
+            $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+        });
+    </script>
+</body>
+
+</html>
